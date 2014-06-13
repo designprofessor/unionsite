@@ -1,0 +1,128 @@
+body {
+	background: url('bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	}
+	
+.tickers {
+	width:100%;
+	background:#333;
+	color:#fff;
+	text-align: center;
+	padding:10px 0;
+	font-size:15px;
+	box-shadow:inset 0px 0px 5px #000;
+}
+	
+	h1 {
+		font-family: Helvetica, Arial, Sans-Serif !important;
+		font-weight: bold;
+		letter-spacing: -1px;
+	}
+
+.mainwrap {
+	background: rgba(255,255,255,0.95);
+	margin-top:20px;
+	//box-shadow: 1px 1px 3px #555;
+	padding-bottom:20px;
+	//border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.jumbotron {
+background:url('lubghead.jpg') #00485b;
+padding:0;
+margin: 0 0 0 0;
+background-position: center top;
+box-shadow: 1px 1px 2px #aaa;
+color: #777;
+text-shadow: -1px -1px 1px #333;
+	
+}
+
+.navigation {
+	position: absolute;
+	right:10px;
+}
+
+.navigation ul {
+	
+}
+
+h1,h2,h3,h4,h5 {
+	color: #00485b;
+}
+.sidebar h4 {
+	margin-top:40px;
+	
+}
+
+
+ 
+h3 {
+	margin-top:20px !important; 
+}
+
+.sharefb {
+	margin-top:2em !important;
+}
+
+.badges {
+	margin-bottom:5px;
+	width:48%;	
+}
+.coverphoto {
+	width:97%;
+}
+
+.timeline-break {
+	padding:20px 0;
+	color:#fff;
+}
+
+.timeline-break h1 {
+	color:#fff;
+	text-shadow: none;
+}
+
+.flagright {
+	position:absolute;
+	top:20px;
+	right:20px;
+	background: #006179;
+	padding:8px 40px 8px 12px;
+	color:#fff;
+	margin-right: -30px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 5px #333;
+}
+
+h3#updates ,h3#resources, h3#signup {
+	background: #eee;
+	padding:5px 10px 8px 5px;
+	cursor:pointer;
+	background: #eee;
+	box-shadow: 1px 1px 1px #ccc;
+	
+
+}
+
+
+
+#updates-content,#resources-content,#signup-content {
+	display: none;
+		margin:0;
+}
+@media screen and (max-width:480px) {
+	.badges {
+		width:100%;
+	}
+	.top {
+		padding-bottom:20px;
+
+	}
+	button {
+		width:100%;
+		margin-bottom:10px !important;
+	}
+}
